@@ -131,7 +131,6 @@ footer > span, a{
 }
 
 footer > span > a:hover{
-  /* transition: all 150ms;*/
   color: blanchedalmond;
   text-shadow: 0px 0px 6px blanchedalmond;
 }
