@@ -104,6 +104,10 @@ img{
   width: 100%;
 }
 
+.img3{
+  max-height: 80%; /*pour la taille soit identique à l'image sur le coté*/
+}
+
 .retourn{
   position: fixed;
   bottom: 0px;
