@@ -57,9 +57,31 @@ nav > ul > li > a:active{
      
     }
 }
+  /*fin du menu de navigation*/
+  
+header{
+  height: 310px;;
+  background-image: url(../ressources/images/msiB450.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-color: rgba(101, 218, 214, 0.537);
+}
 
+main{
+  margin-top: -85px;
+}
 
+h1{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.43);
+  width: 76%;
+  overflow-wrap: break-word;
+}
 
+img{
+  width: 95%;
+}
 body{
   color: lightblue;
   background-color: grey;
