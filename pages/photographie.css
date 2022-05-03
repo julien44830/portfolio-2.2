@@ -5,9 +5,12 @@ body{
   text-align: center;
   margin-top: 45px;
   background-color: rgb(53, 53, 53);
+  background-image: url(../ressources/images/background_photo.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
-/*smenu de navigation*/
+/*menu de navigation*/
 nav{
   position:fixed;
   top: 0px;
@@ -43,6 +46,7 @@ nav > ul > li > a:hover{
   color: blanchedalmond;
   text-shadow: 0px 0px 6px blanchedalmond;
   transition: all 500ms;
+  cursor: progress;/*************************test a suprimer*************************/
 }
 
 nav > ul > li > a:active{
@@ -57,14 +61,25 @@ nav > ul > li > a:active{
      
     }
 }
+  /*fin du menu de navigation*/
 
+h1{
+  display:block;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.43);
+  overflow-wrap: break-word;
+  margin-left:auto;
+  margin-right: auto;
+}
 
-
+img{
+  width: 35%;
+}
 body{
   color: lightblue;
   background-color: grey;
   text-align:center;
-  font-size: 4em;
 }
 
 p{
@@ -73,4 +88,23 @@ p{
 
 a{
   text-decoration: none;
+}
+
+/**************pied de page*****************/
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(51, 51, 51, 0.756);
+  position: fixed;
+  bottom:0px;
+  width: 100%;
+  color: white;
+  font-size: 0.8em;
+  margin-bottom: 0px;
+}
+
+footer > span, a{
+  text-decoration: none;
+  color: white;
+  transition: all 500ms;
 }
