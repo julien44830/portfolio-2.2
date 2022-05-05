@@ -209,6 +209,12 @@ video{
   a{
     width:100%;
     text-align: center;  }
+
+/***********************test annimation*****************/
+  .section :hover{
+    background-color: lightcyan;
+    color: black;
+  }
 }
 
 /*       peid de page       */
