@@ -7,20 +7,30 @@ body{
 }
 
 p{
-  margin-top: 40vh;
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: uppercase;
 }
 
 a{
+  animation-name: texte;
   text-decoration: none;
   font-size: 2em;
   color: yellow;
   }
 
-  a :hover{/************le hover ne fonctionne pas************/
-    color: blue;
-   }
+  a:hover{/************le hover ne fonctionne pas************/
+    color: lightgoldenrodyellow;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 500ms;
+    animation: lien 1s 0s ease-in-out both;
+    animation: color 50ms 0s ease-in-out infinite;
+    box-shadow: 0px 0px 20px white;
+    text-shadow: 0px 0px 10px white;
+    padding: 0.6em;
+
+    }
 
 @keyframes texte{
   0%{
@@ -34,5 +44,80 @@ a{
   100%{
     color: grey;
     background-color: rgb(71, 71, 71);
+  }
+}
+
+@keyframes lien {
+  0%{
+    color: yellow;
+    font-size: 2em;
+  }
+  10%{
+    color: orange;
+  }
+  20%{
+    color: red;
+  }
+  30%{
+    color: purple;
+  }
+  40%{
+    color: darkblue;
+  }
+  50%{
+    color: blue;
+  }
+  60%{
+    color: turquoise;
+  }
+  70%{
+    color: green
+  }
+  80%{
+    color: greenyellow;
+  }
+  90%{
+    color:
+  }
+  100%{
+    font-size: 5em;
+    transition: all 1s;
+  }
+  
+}
+
+@keyframes color {
+  0%{
+    color: yellow;
+  }
+  10%{
+    color: orange;
+  }
+  20%{
+    color: red;
+  }
+  30%{
+    color: purple;
+  }
+  40%{
+    color: darkblue;
+  }
+  50%{
+    color: blue;
+  }
+  60%{
+    color: turquoise;
+  }
+  70%{
+    color: green
+  }
+  80%{
+    color: greenyellow;
+  }
+  90%{
+    color:
+  }
+  100%{
+    transition: all 1s;
   }
 }
