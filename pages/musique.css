@@ -24,12 +24,12 @@ a{
     border: 2px solid black;
     border-radius: 5px;
     transition: all 500ms;
-    animation: lien 1s 0s ease-in-out both;
-    animation: color 50ms 0s ease-in-out infinite;
     box-shadow: 0px 0px 20px white;
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 5px white;
     padding: 0.6em;
-
+    animation: lien 1s 0s ease-in-out both;
+    animation: color 2s 0s ease-in-out infinite;
+    animation: animate 4s linear infinite; /******test animate*********/
     }
 
 @keyframes texte{
@@ -121,3 +121,30 @@ a{
     transition: all 1s;
   }
 }
+
+@keyframes animate {/********test animate**********/
+  0% {
+  transform:scaleX(0);
+  transform-origin: left;
+  }
+  50%
+  {
+    transform:scaleX(1);
+  transform-origin: left;
+  }
+  50.1%
+  {
+    transform:scaleX(1);
+  transform-origin: right;
+    
+  }
+  
+  100%
+  {
+    transform:scaleX(0);
+  transform-origin: right;
+    
+  }
+  
+  
+} 
