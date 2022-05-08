@@ -3,6 +3,7 @@ body{
   color: grey;
   text-align: center;
   animation: 3s ease-in-out infinite texte;
+  cursor: help;
 }
 
 p{
@@ -17,9 +18,8 @@ a{
   color: yellow;
   }
 
-  a :hover{
+  a :hover{/************le hover ne fonctionne pas************/
     color: blue;
-    background-color:black;
    }
 
 @keyframes texte{
