@@ -1,8 +1,9 @@
 body {
   background-color: blue;
+  border: 5px solid black;
 }
 
 h1 {
-  color: white;
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */
