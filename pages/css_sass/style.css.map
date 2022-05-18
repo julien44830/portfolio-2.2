@@ -1,10 +1,9 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAK;CAAG;;AED5B,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,MAAM;CAAG",
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;CAAG;;ACD3B,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,KAAK;CAAG",
     "sources": [
         "style.sass",
         "piano/sass/_body.sass",
-        "piano/sass/_variable.sass",
         "piano/sass/_h1.sass"
     ],
     "names": [],
