@@ -1,9 +1,48 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62%;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: blue;
   border: 5px solid black;
 }
 
 h1 {
-  color: blue;
+  color: yellow;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 10rem;
+}
+
+img {
+  width: 30vw;
+}
+
+.img_piano {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: colunm;
+          flex-direction: colunm;
+}
+
+.img_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */

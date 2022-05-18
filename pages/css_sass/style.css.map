@@ -1,10 +1,14 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,eAAe;CAAG;;ACF5B,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,IAAI;CAAG",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;CAAG;;AAEd,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,GAAG;CAAG;;AAEnB,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CAAG;;ACP1B,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,eAAe;CAAG;;ACF5B,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,MAAM;EACb,eAAe,EAAE,SAAS;EAC1B,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,KAAK;CAAG;;ACJrB,AAAA,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CAAG;;ACDhB,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAAG;;ACF3B,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CAAG",
     "sources": [
         "style.sass",
+        "piano/sass/_reset.sass",
         "piano/sass/_body.sass",
-        "piano/sass/_h1.sass"
+        "piano/sass/_h1.sass",
+        "piano/sass/_img.sass",
+        "piano/sass/_img_piano.sass",
+        "piano/sass/_img_row.sass"
     ],
     "names": [],
     "file": "style.css"
